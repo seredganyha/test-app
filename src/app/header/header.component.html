@@ -1,0 +1,23 @@
+<section>
+    <h1 class="title">
+        Самая вкусная пицца в мире
+        <span class="primary">только в Pizza Cheff</span>
+    </h1>
+    
+    <div class="advantages" >
+        <div class="advantage" *ngFor="let advantage of advantages">
+            <img [src]="'../../assets/advantage/' + advantage.image + '.png'" alt="">
+            <div class="advantage-info">
+                <h4 class="advantage-info-title">
+                    <span class="primary">{{advantage.title}}</span>
+                </h4>
+                <div class="advantage-info-text">
+                    {{advantage.text}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="primary-button">Выбрать пиццу</button>
+</section>
+

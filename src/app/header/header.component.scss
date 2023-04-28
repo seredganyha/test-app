@@ -1,0 +1,38 @@
+section {
+    margin-top: 110px;
+    background-image: url(../../assets/pizza_big.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    .advantage {
+        margin-top: 45px;
+        display: flex;
+        &-info {
+            margin-left: 16px;
+            &-title {
+                text-transform: uppercase;
+                margin-bottom: 2px;
+            }
+            &-text {
+                max-width: 220px;
+            }
+        }
+    }
+    .advantages {
+        display: flex;
+        max-width: 800px;
+        column-gap: 30px;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+    .title {
+        margin-bottom: 6px;
+        max-width: 650px;
+    }
+    button {
+        max-width: 230px;
+    }
+    img {
+        width: 62px;
+        height: 70px;
+    }
+}
