@@ -1,0 +1,12 @@
+.catalog {
+    margin-top: 160px;
+    &-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+.catalogs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

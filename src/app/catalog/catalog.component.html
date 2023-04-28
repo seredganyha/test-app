@@ -1,0 +1,8 @@
+<div class="catalog" *ngIf="$catalogItems | async; let catalogItems">
+    <h2 class="catalog-title">Выберите свою любимую пиццу</h2>
+    <div class="catalogs">
+        <ng-container *ngFor="let catalogItem of catalogItems">
+            <app-card-pizza [pizzaInfo]="catalogItem"></app-card-pizza>
+        </ng-container>
+    </div>
+</div>
