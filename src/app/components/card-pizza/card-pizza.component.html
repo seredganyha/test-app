@@ -1,0 +1,13 @@
+<div class="card">
+    <img class="card-image" (click)="openImage()" [src]="imagePath + pizzaInfo.id + '.svg'" alt="Pizza Image">
+    <div class="card-name">
+        {{pizzaInfo.name}}
+    </div>
+    <div class="card-description">
+        {{pizzaInfo.description}}
+    </div>
+    <button class="primary-button">
+        В корзину
+    </button>
+    <app-modal [imageId]="pizzaInfo.id" (hasCloseModal)="closeModal()" *ngIf="isOpenModal"></app-modal>
+</div>
