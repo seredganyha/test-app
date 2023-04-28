@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+}
+h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin: 0;
+}
+h2 {
+    margin: 0;
+    font-size: 35px;
+    line-height: 55px;
+}
+h3 {
+    margin: 0;
+    font-size: 35px;
+    line-height: 45px;
+}
+h4 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+span.primary {
+    color: #ffaf18;
+}
+span.secondary {
+    color: #B99150;;
+}
+.primary-button {
+    background-color: #ffaf18;
+    border: 0;
+    width: 100%;
+    padding: 15px 0;
+}
+input {
+    width: 300px;
+    padding: 0 5px 0 25px;
+    height: 55px;
+    border: 1px solid #B99150;
+    &::placeholder {
+       color: #CBA86E;
+    }
+}
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
