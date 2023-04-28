@@ -1,0 +1,9 @@
+<div class="modal">
+    <div (click)="closeModal()" class="title">X</div>
+    <div  class="flex-container">
+        <img *ngIf="imageId" [src]="'../../assets/pizza/' + imageId + '.svg'" alt="">
+        <div *ngIf="response" class="flex-item">
+            {{response.message}}
+        </div>
+    </div>
+</div>
