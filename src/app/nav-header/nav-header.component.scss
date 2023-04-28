@@ -1,0 +1,35 @@
+.logo {
+    display: flex;
+    align-items: center;
+    &-image {
+        height: 80px;
+    }
+    &-title {
+        font-size: 24px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #ffc468;
+        font-weight: 800;
+        max-width: 90px;
+        margin-left: 10px;
+    }
+}
+.nav {
+    box-shadow: 0px 3px 13.8px rgba(152, 152, 152, 0.2);
+}
+.nav-items {
+    display: flex;
+    margin-left: 240px;
+    .nav-item {
+        margin-left: 40px;
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #a46b00;
+        
+    }
+}
+.container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
